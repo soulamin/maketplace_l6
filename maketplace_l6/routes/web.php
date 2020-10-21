@@ -14,6 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::any('/Alan/{{id}}', function ($id) {
-    return "Alan - sua idade é {{id}}";
+Route::get('/alan/{{id}}', function () {
+    return "Alan - sua idade é ";
 });
